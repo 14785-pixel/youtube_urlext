@@ -1,7 +1,6 @@
 import youtube_dl
 import streamlit as st
 import pytube
-import json
 
 url = st.text_input(label="URL of the video", placeholder="url")
 btn_push = st.button(label = "Download")
